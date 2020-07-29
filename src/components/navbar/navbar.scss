@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    background:black;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+
+.nav-links{
+    list-style-type: none;
+    display:flex;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    padding: 10px;
+}
+
+
+.nav-link:hover {
+    color: green;
+    transition: .5s linear;
+}
+
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 0.3s linear;
+    padding: 15px;
+}
+
+
+.active {
+    color: #379e0b;
+}
